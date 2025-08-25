@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #FF005A;
+    color: white;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dr{
+display: flex;
+align-items: center;
+gap: 50px;
+
+    
+}
+.dr ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+.dr button{
+    
+    font-weight: bold;
+    color: white;
+    background: none;
+    border: none;
+    font-size: 18px;
+}
+.logo{
+    font-weight: bold;
+    font-size: 22px;
+}
+.hero{
+    background: url("img/фон.jpg");
+    height: 90vh;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.hero-info{
+    width: 25%;
+    color: white;
+    
+}
+.hero-form{
+    width: 25%;
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    display: grid;
+    gap: 15px;
+    font-size: 18px;
+}
+.hero-info h1{
+    font-size: 64px;
+}
+.hero-info p{
+    font-size: 24px;
+}
+.h1{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.hero-form button{
+    padding: 10px;
+    background-color: #FF005A;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+.hero-form input {
+    font-size: 18px;
+    padding: 10px;
+}
+.h2{
+    text-align: center;
+    color: rgb(161, 165, 169);
+}

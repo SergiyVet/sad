@@ -85,3 +85,42 @@ gap: 50px;
     text-align: center;
     color: rgb(161, 165, 169);
 }
+.info{
+    height: 70vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.info-foto{
+    background: url(img/info.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 50%;
+}
+.info-text{
+    width: 50%;
+    
+}
+.obgortka{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 18px;
+    display: flex;
+  flex-direction: column; 
+  gap: 20px;
+  align-items: flex-start;
+}
+.obgortka h1{
+    font-size: 48px
+}
+.obgortka span{
+    color: red;
+}
+.obgortka button{
+    color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #3088FF
+}

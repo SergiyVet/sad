@@ -124,3 +124,55 @@ gap: 50px;
     font-size: 18px;
     background-color: #3088FF
 }
+.perevaga{
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url("img/фон2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.first{
+    
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top:100px ;
+}
+.first h1{
+    font-size: 64px;
+}
+.first p{
+    font-size: 24px;
+    color: rgb(198, 199, 201);
+}
+.bloku{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 100px;
+    color: white;
+}
+.bloku div{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.bloku div div{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    color: #3088FF;
+    margin: 0 auto;
+    border-radius: 50%;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}

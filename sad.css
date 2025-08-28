@@ -35,7 +35,7 @@ gap: 50px;
     font-size: 22px;
 }
 .hero{
-    background: url("img/image.png");
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("img/image.png");
     height: 90vh;
     background-repeat:no-repeat;
     background-position: center;
@@ -175,4 +175,33 @@ gap: 50px;
     justify-content: center;
     align-items: center;
     font-weight: bold;
+}
+.text{
+    height: 50vh;
+    margin: 100px;
+    display: flex;
+    align-items: center;
+}
+.text div{
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 50px;
+}
+.text div i{
+    color: red;
+    font-size: 64px;
+    
+}
+.text div h2{
+    font-size: 48px;
+}
+.text div p{
+    font-size: 24px;
+    color: rgb(104, 108, 112);
 }

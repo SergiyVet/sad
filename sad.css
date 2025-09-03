@@ -474,9 +474,16 @@ gap: 50px;
     width: 50px;
     border-radius: 50%;
     background-color: #FF005A;
+    display: flex;
 }
 .kolo{
     display: flex;
     justify-content: center;
     gap: 12px;
+}
+.kolo div img{
+    width: 50%;
+    height: 50%;
+  
+    margin: auto;
 }

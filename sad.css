@@ -454,7 +454,18 @@ gap: 50px;
     border-radius: 20px;
 }
 .foot{
-    padding: 80px;
+    padding: 50px;
     width: 50%;
     margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.te{
+    display: flex;
+    justify-content: space-evenly;
+}
+.te span{
+    font-weight: bold;
 }

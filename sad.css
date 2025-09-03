@@ -469,3 +469,14 @@ gap: 50px;
 .te span{
     font-weight: bold;
 }
+.kolo div{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #FF005A;
+}
+.kolo{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
